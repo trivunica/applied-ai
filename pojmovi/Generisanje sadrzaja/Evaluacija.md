@@ -6,10 +6,10 @@ izvor: "Alaa, A., van Breugel, B., Saveliev, E., van der Schaar, M. (2022). How 
 # Evaluacija (Evaluation)
 
 ## Definicija
-Sistematska procena kvaliteta [[Model|modela]] ili generisanog sadržaja pomoću metrika, testova i ljudskih ocena.
+Sistematsko merenje koliko izlazi AI tehnologije zadovoljavaju metrike uspeha i ograničenja slučaja korišćenja.
 
 ## Primer
 Generisane slike ocenjuju se automatskim metrikama, kao što je FID, kao i ljudskom procenom realističnosti i usklađenosti sa opisom.
 
 ## Napomene
-Evaluacija proverava kvalitet modela ili izlaza, a [[Validacija]] da li rešenje zadovoljava potrebu korisnika u stvarnoj upotrebi. Obe se razlikuju od [[Treniranje|treniranja]]. Alaa i sar. (2022) predlažu procenu generativnih modela kroz tri dimenzije: kvalitet (fidelity), raznovrsnost (diversity) i originalnost (authenticity).
+

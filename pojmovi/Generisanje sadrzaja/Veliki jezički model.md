@@ -1,12 +1,12 @@
 ---
 tip: pojam
-aliases: [LLM, Large language model, veliki jezički model]
+aliases: [LLM, Large language model]
 izvor: "Zhao, W. X. i dr. (2023). A Survey of Large Language Models. arXiv:2303.18223. https://arxiv.org/abs/2303.18223"
 ---
 # Veliki jezički model (Large language model)
 
 ## Definicija
-[[Jezički model]] sa velikim brojem parametara, [[Treniranje|treniran]] na velikim količinama teksta i koda. Može da prati instrukcije, sažima, prevodi i generiše tekst i [[Generisanje koda|kod]].
+[[Jezički model]] sa velikim brojem parametara, [[Treniranje|treniran]] na velikim količinama teksta i koda. Može da prati instrukcije, sažima, prevodi i generiše tekst i [[Generisanje koda|kod]]. Služi i analizi (ekstrakcija) i odlučivanju (agenti).
 
 ## Primer
 LLM na osnovu opisa zadatka u prirodnom jeziku napiše funkciju za sortiranje liste.

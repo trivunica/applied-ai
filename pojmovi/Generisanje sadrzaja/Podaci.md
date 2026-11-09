@@ -6,7 +6,7 @@ izvor: "Goodfellow, I., Bengio, Y., Courville, A. (2016). Deep Learning. MIT Pre
 # Podaci (Data)
 
 ## Definicija
-Zabeleženi primeri – tekst, slike, zvuk, brojevi ili kod – na osnovu kojih [[Model|model]] uči i nad kojima radi. Kvalitet i pristrasnost podataka direktno utiču na kvalitet generisanog sadržaja.
+[[Podaci|Podaci]] čijom se obradom tokom [[Treniranje|treniranja]] podešavaju parametri [[Model|modela]].
 
 ## Primer
 Veliki korpus tekstova na kome se [[Treniranje|trenira]] [[Jezički model|jezički model]].
