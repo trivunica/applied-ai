@@ -22,7 +22,7 @@ Karakteristika ┈┈┈┈┈┈┈┈┈ Problem ─────────�
 
 - Isprekidana linija Karakteristika i Problem znači da problem proizlazi iz karakteristike.
 - Profesor je prvobitno napisao GenAI kao tehnologiju, pa je rekao da se apstrahuje u "AI tehnologija". Generisanje, Analiza i Odlučivanje su dakle vrste (instance) AI tehnologije, a ne zaseban entitet.
-- Fotografija table je sačuvana u `_meta/tabla.jpg`, da se kasnije ne spori šta je na njoj pisalo.
+
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 tip: pojam
 aliases: [success metric]
-izvor: "Tabla sa predavanja (profesor), _meta/tabla.jpg; ISO/IEC TR 24030:2024, odeljak 6.4.10 (Key performance indicators, KPIs)"
+izvor: "ISO/IEC TR 24030:2024, odeljak 6.4.10 (Key performance indicators, KPIs)"
 ---
 # Metrika uspeha (success metric)
 

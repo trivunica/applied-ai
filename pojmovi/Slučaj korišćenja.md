@@ -1,7 +1,7 @@
 ---
 tip: pojam
 aliases: [use case, primena]
-izvor: "Tabla sa predavanja (profesor), _meta/tabla.jpg; ISO/IEC TR 24030:2024, Artificial intelligence (AI) - Use cases, odeljak 6.4 (šablon slučaja korišćenja: ciljevi 6.4.6, ključni pokazatelji uspeha 6.4.10)"
+izvor: "ISO/IEC TR 24030:2024, Artificial intelligence (AI) - Use cases, odeljak 6.4 (šablon slučaja korišćenja: ciljevi 6.4.6, ključni pokazatelji uspeha 6.4.10)"
 ---
 # Slučaj korišćenja (use case)
 

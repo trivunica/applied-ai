@@ -1,7 +1,7 @@
 ---
 tip: pojam
 aliases: [decision making]
-izvor: "Tabla sa predavanja (profesor), _meta/tabla.jpg (AI tehnologija se deli na generisanje, analizu i odlučivanje); OECD, definicija AI sistema iz Preporuke o AI (izmena iz 2023), preuzeta u Uredbu (EU) 2024/1689, čl. 3(1), gde su izlazi predikcije, sadržaj, preporuke ili odluke; ISO/IEC 22989:2022, 3.1.4 (AI system)"
+izvor: "OECD, definicija AI sistema iz Preporuke o AI (izmena iz 2023), preuzeta u Uredbu (EU) 2024/1689, čl. 3(1), gde su izlazi predikcije, sadržaj, preporuke ili odluke; ISO/IEC 22989:2022, 3.1.4 (AI system)"
 ---
 # Odlučivanje (decision making)
 
