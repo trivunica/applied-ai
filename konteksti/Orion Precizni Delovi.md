@@ -59,3 +59,24 @@ Orion Precizni Delovi je izmišljena srednja fabrika (oko 120 zaposlenih) koja p
 - Dobavljač čelika.
 - Servisna firma za vretena.
 - Snabdevač električnom energijom, koji dodatno naplaćuje vršnu potrošnju.
+
+## Slučajevi korišćenja
+Svaki slučaj je upotreba AI tehnologije u ovoj fabrici radi zadatog cilja. Na njima se testira cela arhitektura (`_meta/arhitektura.md`). Novi slučaj se dodaje ovde, ne u novi kontekst.
+
+### Nacrt radne instrukcije (generisanje sadržaja)
+Tehnolog dobija od jezičkog modela nacrt radne instrukcije za novi deo na osnovu opisa dela, mašine i tehničke dokumentacije, pa ga pregleda i odobrava.
+- Korisnik: tehnolog.
+- Ograničenje: tehnolog ima ograničeno vreme za pregled.
+- Metrika uspeha: činjenična ispravnost nacrta prema tehničkoj dokumentaciji.
+
+### Vizuelna kontrola delova (analiza sadržaja)
+Kamere nad izlaznom trakom snimaju delove, a sistem otkriva defekte i prijavljuje ih kontroloru kvaliteta.
+- Korisnik: kontrolor kvaliteta.
+- Ograničenje: kontrolor može da proveri ograničen broj upozorenja po smeni.
+- Metrika uspeha: odziv na retke defekte i preciznost upozorenja.
+
+### Prediktivno održavanje vretena (odlučivanje)
+Sistem za prediktivno održavanje procenjuje verovatnoću otkaza vretena CNC-07 u narednih deset dana, a rukovodilac održavanja bira da li da vreteno zameni pre planiranog servisa ili da nastavi rad.
+- Korisnik: rukovodilac održavanja.
+- Ograničenje: u skladištu postoji samo jedno rezervno vreteno za taj tip.
+- Metrika uspeha: funkcija cilja, odnosno zbir ugovornih kazni (zastoj se iskazuje kroz dane kašnjenja), oštećenja alata i troška preuranjene zamene vretena.

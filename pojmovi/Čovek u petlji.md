@@ -6,7 +6,7 @@ izvor: "High-Level Expert Group on AI (Evropska komisija), Ethics Guidelines for
 # Čovek u petlji (human in the loop)
 
 ## Definicija
-Oblik [[Ljudski nadzor|ljudskog nadzora]] u kome se [[Odluka|odluka]] AI sistema izvršava tek kada je čovek odobri.
+Čovek u petlji je vrsta [[Ljudski nadzor|ljudskog nadzora]] u kojoj se [[Odluka|odluka]] AI sistema izvršava tek kada je čovek odobri.
 
 ## Primer
 Sistem za prediktivno održavanje u fabrici [[Orion Precizni Delovi]] predlaže zamenu vretena mašine CNC-07, ali nalog za zaustavljanje mašine nastaje tek kada rukovodilac održavanja preporuku odobri.
