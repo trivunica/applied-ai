@@ -6,10 +6,10 @@ izvor: "Alaa, A., van Breugel, B., Saveliev, E., van der Schaar, M. (2022). How 
 # Evaluacija (Evaluation)
 
 ## Definicija
-Sistematsko merenje koliko izlazi AI tehnologije zadovoljavaju metrike uspeha i ograničenja slučaja korišćenja.
+Sistematsko merenje koliko izlazi [[AI tehnologija|AI tehnologije]] zadovoljavaju metrike uspeha i ograničenja slučaja korišćenja.
 
 ## Primer
-Generisane slike ocenjuju se automatskim metrikama, kao što je FID, kao i ljudskom procenom realističnosti i usklađenosti sa opisom.
+Pregled uzorka radnih instrukcija prema tehničkoj dokumentaciji pre puštanja u upotrebu u fabrici [[Orion Precizni Delovi]].
 
 ## Napomene
-
+Evaluacija može obuhvatati automatske kvantitativne metrike kao i stručnu procenu korisnika.
