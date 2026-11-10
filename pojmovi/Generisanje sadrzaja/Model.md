@@ -6,10 +6,10 @@ izvor: "Goodfellow, I., Bengio, Y., Courville, A. (2016). Deep Learning. MIT Pre
 # Model (Model)
 
 ## Definicija
-Matematička struktura sa podesivim parametrima koja preslikava ulaz u izlaz. Parametri se podešavaju u procesu [[Treniranje|treniranja]] na osnovu [[Podaci|podataka]].
+Matematička struktura sa podesivim parametrima koja preslikava ulaz u izlaz. Parametri se podešavaju u procesu treniranja na osnovu podataka.
 
 ## Primer
-[[Jezički model]] prima tekst kao ulaz i vraća [[Verovatnoća|verovatnoće]] mogućih sledećih tokena.
+[[Jezički model]] prima tekst kao ulaz i vraća verovatnoće mogućih sledećih tokena.
 
 ## Napomene
 Model nije isto što i skup podataka na kome je treniran, niti aplikacija koja ga koristi. Isti model može se koristiti u više aplikacija.

@@ -8,7 +8,7 @@ izvor: "Ji, Z. i dr. (2023). Survey of Hallucination in Natural Language Generat
 
 ## Definicija
 
-Halucinacija je greška generativne AI tehnologije u kojoj [[Model|model]] generiše sadržaj koji je uverljiv, ali netačan, nepotkrepljen ili izmišljen, predstavljajući ga kao činjenicu.
+Halucinacija je greška generativne AI tehnologije u kojoj model generiše sadržaj koji je uverljiv, ali netačan, nepotkrepljen ili izmišljen, predstavljajući ga kao činjenicu.
 
 ## Primer
 
@@ -27,4 +27,4 @@ Ji i saradnici razlikuju dve vrste halucinacija:
 
 - Ublažavanje
 
-Rizik od halucinacija može se smanjiti preciznim [[Prompt|promptom]], navođenjem pouzdanih izvora, [[Verifikacija|verifikacijom]] činjenica i [[Ljudski nadzor|ljudskim nadzorom]].
+Rizik od halucinacija može se smanjiti preciznim [[Prompt|promptom]], navođenjem pouzdanih izvora, verifikacijom činjenica i [[Ljudski nadzor|ljudskim nadzorom]].

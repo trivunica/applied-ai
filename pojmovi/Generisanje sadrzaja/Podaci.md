@@ -6,10 +6,10 @@ izvor: "Goodfellow, I., Bengio, Y., Courville, A. (2016). Deep Learning. MIT Pre
 # Podaci (Data)
 
 ## Definicija
-[[Podaci|Podaci]] čijom se obradom tokom [[Treniranje|treniranja]] podešavaju parametri [[Model|modela]].
+Podaci čijom se obradom tokom treniranja podešavaju parametri modela.
 
 ## Primer
-Veliki korpus tekstova na kome se [[Treniranje|trenira]] [[Jezički model|jezički model]].
+Veliki korpus tekstova na kome se trenira [[Jezički model|jezički model]].
 
 ## Napomene
 Pristrasnost u podacima prenosi se na izlaz modela. Nedovoljno raznovrsni podaci daju sadržaj koji slabo pokriva stvarnu raznolikost.
