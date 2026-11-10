@@ -1,15 +1,19 @@
 ---
 tip: pojam
 aliases: [Detection]
-izvor: Zou et al., "Object Detection in 20 Years: A Survey", Proceedings of the IEEE, 2023
+izvor: 'Zou et al., "Object Detection in 20 Years: A Survey", Proceedings of the IEEE, 2023'
 ---
+
 # Detekcija (Detection)
 
 ## Definicija
-Utvrđivanje da li se u ulaznim podacima nalazi [[Objekat|objekat]], [[Događaj|događaj]] ili [[Obrazac|obrazac]] od interesa, ili odstupanje od [[Normalno ponašanje|normalnog ponašanja]], uz određivanje njegove [[Klasifikacija|klase]] i, kada je to deo zadatka, njegovog položaja u podacima ([[Lokalizacija|lokalizacije]]).
+
+Detekcija je vrsta [[Analiza sadržaja|analize sadržaja]] kojom se utvrđuje da li se u ulaznim podacima nalazi objekat, pojava ili odstupanje od očekivanog ponašanja od interesa. U zavisnosti od zadatka, detekcija može uključivati i određivanje položaja pronađenog objekta ili pojave u podacima.
 
 ## Primer
-Sistem video nadzora klinike utvrđuje da se u hodniku ispred serverske sobe nalazi osoba posle radnog vremena i označava gde se na snimku nalazi.
+
+Sistem za vizuelnu kontrolu u fabrici Orion analizira snimke delova sa izlazne trake i otkriva prisustvo površinskih defekata, a zatim prijavljuje njihove položaje kontroloru kvaliteta.
 
 ## Napomene
-Detekcija je širi zadatak od klasifikacije: pored toga šta je prisutno, odgovara i na pitanje da li je išta prisutno i gde.
+
+Detekcija ne mora da podrazumeva određivanje klase pronađenog objekta. Kod otkrivanja anomalija, na primer, cilj je da se utvrdi odstupanje od uobičajenog ponašanja, čak i kada unapred definisana klasa anomalije ne postoji. Navedeni izvor Zou i saradnika obrađuje detekciju objekata, dok je ovde definicija postavljena šire u skladu sa arhitekturom baze znanja.
