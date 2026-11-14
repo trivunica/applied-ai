@@ -12,4 +12,4 @@ Nedostatak je vrsta [[Karakteristika|Karakteristike]] koja označava svojstvo ko
 Ograničen kontekstni prozor ili sklonost halucinaciji pri generisanju tehničke dokumentacije u fabrici [[Orion Precizni Delovi]].
 
 ## Napomene
-Termin se upotrebljava za sistemska ograničenja i slabosti modela.
+Termin se upotrebljava za svojstva i slabosti modela. Engleski *limitation* se ne prevodi kao "ograničenje": [[Ograničenje]] je uslov slučaja korišćenja.

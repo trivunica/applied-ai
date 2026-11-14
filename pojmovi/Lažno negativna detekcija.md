@@ -12,4 +12,8 @@ Lažno negativna detekcija je vrsta [[Greška|greške]] u kojoj sistem ne prijav
 
 ## Primer
 
-Sistem za vizuelnu kontrolu u fabrici Orion ne prepozna naprsnuće na kućištu ležaja koje prolazi kroz kontrolnu liniju, pa kontrolor kvaliteta ne dobija upozorenje i defektan deo nastavlja ka skladištu.
+Sistem za vizuelnu kontrolu u fabrici [[Orion Precizni Delovi]] ne prepozna naprsnuće na kućištu ležaja koje prolazi kroz kontrolnu liniju, pa kontrolor kvaliteta ne dobija upozorenje i defektan deo nastavlja ka skladištu.
+
+## Napomene
+
+Broj lažno negativnih detekcija zavisi od [[Prag odlučivanja|praga odlučivanja]]: viši prag ih povećava.

@@ -12,4 +12,4 @@ Zamor od upozorenja je [[Problem]] koji nastaje kao posledica [[Rešenje|rešenj
 
 ## Primer
 
-Ako sistem za vizuelnu kontrolu u fabrici Orion svakodnevno šalje veliki broj upozorenja, među kojima su mnoga lažna, kontrolor kvaliteta može početi da ih ignoriše ili obrađuje površno, zbog čega postoji mogućnost da previdi stvarni defekt.
+Ako sistem za vizuelnu kontrolu u fabrici [[Orion Precizni Delovi]] svakodnevno šalje veliki broj upozorenja, među kojima su mnoga lažna, kontrolor kvaliteta može početi da ih ignoriše ili obrađuje površno, zbog čega postoji mogućnost da previdi stvarni defekt.

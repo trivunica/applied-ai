@@ -12,8 +12,8 @@ Detekcija je vrsta [[Analiza sadržaja|analize sadržaja]] kojom se utvrđuje da
 
 ## Primer
 
-Sistem za vizuelnu kontrolu u fabrici Orion analizira snimke delova sa izlazne trake i otkriva prisustvo površinskih defekata, a zatim prijavljuje njihove položaje kontroloru kvaliteta.
+Sistem za vizuelnu kontrolu u fabrici [[Orion Precizni Delovi]] analizira snimke delova sa izlazne trake i otkriva prisustvo površinskih defekata, a zatim prijavljuje njihove položaje kontroloru kvaliteta.
 
 ## Napomene
 
-Detekcija ne mora da podrazumeva određivanje klase pronađenog objekta. Kod otkrivanja anomalija, na primer, cilj je da se utvrdi odstupanje od uobičajenog ponašanja, čak i kada unapred definisana klasa anomalije ne postoji. Navedeni izvor Zou i saradnika obrađuje detekciju objekata, dok je ovde definicija postavljena šire u skladu sa arhitekturom baze znanja.
+Detekcija ne mora da podrazumeva određivanje klase pronađenog objekta. Kod otkrivanja anomalija, na primer, cilj je da se utvrdi odstupanje od uobičajenog ponašanja, čak i kada unapred definisana klasa anomalije ne postoji. Izvor (Zou i saradnici) obrađuje samo detekciju objekata, pa je definicija ovde šira.

@@ -1,16 +1,18 @@
 ---
 tip: pojam
+aliases: [Error]
+izvor: "Izvor za opšti krovni pojam nije specifično naveden."
 ---
 
-# Greška
+# Greška (Error)
 
 ## Definicija
 
-Greška je vrsta [[Problem|problema]] u kojoj izlaz AI tehnologije narušava ograničenja ili metrike uspeha slučaja korišćenja.
+Greška je vrsta [[Problem|problema]] u kojoj izlaz [[AI tehnologija|AI tehnologije]] narušava [[Ograničenje|ograničenja]] ili [[Metrika uspeha|metrike uspeha]] [[Slučaj korišćenja|slučaja korišćenja]].
 
 ## Primer
 
-Sistem za vizuelnu kontrolu u fabrici Orion ne prijavi deo sa stvarnim defektom. Time narušava metriku uspeha koja zahteva pouzdano otkrivanje defekata, pa nastaje greška u izlazu sistema.
+Sistem za vizuelnu kontrolu u fabrici [[Orion Precizni Delovi]] ne prijavi deo sa stvarnim defektom ([[Lažno negativna detekcija|lažno negativna detekcija]]). Time narušava metriku uspeha koja zahteva pouzdano otkrivanje defekata, pa nastaje greška u izlazu sistema.
 
 ## Napomene
 
