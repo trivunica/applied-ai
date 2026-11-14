@@ -6,10 +6,10 @@ izvor: "Izvor za opšti krovni pojam nije specifično naveden."
 # Karakteristika (Characteristic)
 
 ## Definicija
-Svojstvo [[AI tehnologija|AI tehnologije]] koje određuje šta ona može da uradi u slučaju korišćenja.
+Karakteristika je svojstvo [[AI tehnologija|AI tehnologije]] koje određuje šta ona može da uradi u [[Slučaj korišćenja|slučaju korišćenja]].
 
 ## Primer
 Sklonost halucinaciji kao [[Nedostatak|nedostatak]] ili pisanje nacrta radne instrukcije iz opisa kao [[Mogućnost|mogućnost]] u fabrici [[Orion Precizni Delovi]].
 
 ## Napomene
-Vrste karakteristika obuhvataju [[Mogućnost|mogućnost]], [[Nedostatak|nedostatak]] i neizvesnost.
+Vrste karakteristika obuhvataju [[Mogućnost|mogućnost]], [[Nedostatak|nedostatak]] i [[Neizvesnost|neizvesnost]].

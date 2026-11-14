@@ -12,4 +12,4 @@ Promena raspodele podataka je vrsta [[Problem|problema]] u kojoj se raspodela po
 
 ## Primer
 
-Sistem za prediktivno održavanje u fabrici Orion obučen je na očitavanjima vibracija vretena CNC-07 tokom uobičajenog rada. Nakon promene režima obrade, vibracije se sistematski razlikuju od ranijih očitavanja, zbog čega model češće prijavljuje upozorenja i kada nema naznaka predstojećeg otkaza.
+Sistem za prediktivno održavanje u fabrici [[Orion Precizni Delovi]] obučen je na očitavanjima vibracija vretena CNC-07 tokom uobičajenog rada. Nakon promene režima obrade, vibracije se sistematski razlikuju od ranijih očitavanja, zbog čega model češće prijavljuje upozorenja i kada nema naznaka predstojećeg otkaza.

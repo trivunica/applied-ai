@@ -1,12 +1,12 @@
 ---
 tip: pojam
 aliases: [Evaluation]
-izvor: "Alaa, A., van Breugel, B., Saveliev, E., van der Schaar, M. (2022). How Faithful is your Synthetic Data? Sample-level Metrics for Evaluating and Auditing Generative Models. ICML 2022, PMLR 162:290–306. https://proceedings.mlr.press/v162/alaa22a.html"
+izvor: "Izvor za opšti krovni pojam nije specifično naveden. Za evaluaciju generativnih modela vidi Alaa, A., van Breugel, B., Saveliev, E., van der Schaar, M. (2022). How Faithful is your Synthetic Data? Sample-level Metrics for Evaluating and Auditing Generative Models. ICML 2022, PMLR 162:290-306. https://proceedings.mlr.press/v162/alaa22a.html"
 ---
 # Evaluacija (Evaluation)
 
 ## Definicija
-Sistematsko merenje koliko izlazi [[AI tehnologija|AI tehnologije]] zadovoljavaju metrike uspeha i ograničenja slučaja korišćenja.
+Evaluacija je sistematsko merenje koliko izlazi [[AI tehnologija|AI tehnologije]] zadovoljavaju [[Metrika uspeha|metrike uspeha]] i [[Ograničenje|ograničenja]] [[Slučaj korišćenja|slučaja korišćenja]].
 
 ## Primer
 Pregled uzorka radnih instrukcija prema tehničkoj dokumentaciji pre puštanja u upotrebu u fabrici [[Orion Precizni Delovi]].

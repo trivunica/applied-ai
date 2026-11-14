@@ -1,16 +1,17 @@
 ---
 tip: pojam
+izvor: "Izvor za opšti krovni pojam nije specifično naveden."
 ---
 
 # Problem
 
 ## Definicija
 
-Problem je neželjeno stanje u slučaju korišćenja koje proizlazi iz neke karakteristike AI tehnologije i narušava ograničenja ili metrike uspeha.
+Problem je neželjeno stanje u [[Slučaj korišćenja|slučaju korišćenja]] koje proizlazi iz neke [[Karakteristika|karakteristike]] [[AI tehnologija|AI tehnologije]] i narušava [[Ograničenje|ograničenja]] ili [[Metrika uspeha|metrike uspeha]].
 
 ## Primer
 
-U fabrici Orion sistem za vizuelnu kontrolu nakon snižavanja praga detekcije počinje da prijavljuje veliki broj delova koji su zapravo ispravni. Kontrolor kvaliteta ne može da proveri sva upozorenja tokom smene, zbog čega deo upozorenja ostaje neobrađen.
+U fabrici [[Orion Precizni Delovi]] sistem za vizuelnu kontrolu nakon snižavanja [[Prag odlučivanja|praga odlučivanja]] počinje da prijavljuje veliki broj delova koji su zapravo ispravni. Kontrolor kvaliteta ne može da proveri sva upozorenja tokom smene, zbog čega deo upozorenja ostaje neobrađen.
 
 ## Napomene
 

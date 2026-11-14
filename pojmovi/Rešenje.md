@@ -1,20 +1,23 @@
 ---
 tip: pojam
-aliases: [Mera ublažavanja]
+aliases: [Mitigation, Mera ublažavanja]
+izvor: "Izvor za opšti krovni pojam nije specifično naveden."
 ---
 
-# Rešenje
+# Rešenje (Mitigation)
 
 ## Definicija
 
-Rešenje je promena AI tehnologije, njenog ulaza ili načina korišćenja u slučaju korišćenja, kojom se smanjuje verovatnoća ili posledica nekog [[Problem|problema]].
+Rešenje je promena [[AI tehnologija|AI tehnologije]], njenog [[Ulaz|ulaza]] ili načina korišćenja u [[Slučaj korišćenja|slučaju korišćenja]], kojom se smanjuje verovatnoća ili posledica nekog [[Problem|problema]].
 
 ## Primer
 
-U fabrici Orion prag detekcije na sistemu za vizuelnu kontrolu može se sniziti kako bi sistem prepoznao veći broj stvarnih defekata. Time se smanjuje broj propuštenih defekata, ali se istovremeno može povećati broj lažnih upozorenja.
+U fabrici [[Orion Precizni Delovi]] [[Prag odlučivanja|prag odlučivanja]] na sistemu za vizuelnu kontrolu može se sniziti kako bi sistem prepoznao veći broj stvarnih defekata. Time se smanjuje broj propuštenih defekata, ali se istovremeno može povećati broj lažnih upozorenja.
 
 ## Napomene
 
-Rešenje ne mora u potpunosti da ukloni postojeći Problem. Ono može da smanji njegovu verovatnoću ili posledice.
+Vrsta Rešenja je [[Ljudski nadzor]].
 
-Rešenje može da stvori i novi Problem. Na primer, snižavanje praga detekcije može dovesti do prevelikog broja upozorenja i izazvati [[Zamor od upozorenja]].
+Rešenje ne mora u potpunosti da ukloni postojeći [[Problem|problem]]. Ono može da smanji njegovu verovatnoću ili posledice.
+
+Rešenje može da stvori i novi Problem. Na primer, snižavanje praga odlučivanja može dovesti do prevelikog broja upozorenja i izazvati [[Zamor od upozorenja]].

@@ -12,4 +12,8 @@ Lažno pozitivna detekcija je vrsta [[Greška|greške]] u kojoj sistem prijavi d
 
 ## Primer
 
-Sistem za vizuelnu kontrolu u fabrici Orion prijavi površinski defekt na kućištu ležaja, iako je deo ispravan i zadovoljava propisane standarde kvaliteta. Kontrolor kvaliteta zato nepotrebno proverava deo.
+Sistem za vizuelnu kontrolu u fabrici [[Orion Precizni Delovi]] prijavi površinski defekt na kućištu ležaja, iako je deo ispravan i zadovoljava propisane standarde kvaliteta. Kontrolor kvaliteta zato nepotrebno proverava deo.
+
+## Napomene
+
+Broj lažno pozitivnih detekcija zavisi od [[Prag odlučivanja|praga odlučivanja]]: niži prag ih povećava.

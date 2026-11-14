@@ -12,4 +12,4 @@ Veliki jezički model je [[Jezički model|jezički model]] sa velikim brojem par
 Generisanje kompletnog nacrta radne instrukcije za tehnologa u fabrici [[Orion Precizni Delovi]].
 
 ## Napomene
-Može da prati kompleksne instrukcije, sažima, prevodi i generiše kod i tekst. Služi i analizi i odlučivanju. Veliki jezički model predviđa verovatan nastavak teksta i nema ugrađenu procenu istinitosti činjenica, pa je podložan [[Halucinacija|halucinacijama]].
+Može da prati kompleksne instrukcije, sažima, prevodi i generiše kod i tekst. Služi i [[Analiza sadržaja|analizi sadržaja]] i [[Odlučivanje|odlučivanju]]. Veliki jezički model predviđa verovatan nastavak teksta i nema ugrađenu procenu istinitosti činjenica, pa je podložan [[Halucinacija|halucinacijama]].
