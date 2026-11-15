@@ -107,6 +107,12 @@ Rizik se računa iz Greške, pa nije njena "sestra". Zato se ne dele pojmovi 50:
 | Sistem za uzbunjivanje (#3) | Rešenje | |
 | Verifikacija, Validacija, Testiranje (#2) | Vrste Evaluacije | U radu, provera izlaza je i Rešenje |
 | Objašnjivost modela (#3) | Mogućnost | Služi Ljudskom nadzoru |
+| Agentska petlja (R2-P1) | Karakteristika | Direktno ispod krovnog pojma: donosi i Mogućnost (prilagođavanje rezultatima) i Nedostatak (nepoznat trošak, petlja koja se ne završava) |
+| Beskonačna agentska petlja (R2-P1) | Problem | Stanje izvršavanja, nije izlaz. Proizlazi iz Agentske petlje |
+| Istek vremena alata (R2-P1) | Problem nastao iz Rešenja | Rok za odgovor ostavlja agenta bez podatka. Okidač je van AI tehnologije |
+| Prekomerno izlaganje resursa (R2-P1) | Problem | Izvor daje više podataka nego što treba, a agent sve unosi u kontekst modela. Okidač je van AI tehnologije |
+| Distribuirano praćenje (R2-P1) | Rešenje | Smanjuje posledicu, ne verovatnoću. Nov Problem: izloženi podaci ostaju u tragu |
+| Veliki jezički model kao evaluator, Praćenje potrošnje tokena, Analiza pojedinačnih koraka (R2-P1) | Evaluacija | U radu i Rešenje |
 
 Pravilo: Rešenje može da uvede nov Problem (niži prag smanjuje propuštene otkaze, ali povećava lažne uzbune i zamor).
 
@@ -120,6 +126,7 @@ Prompt i Kontekst nemaju mesto na tabli, pa su u ranijim pregledima ostali bez �
 - Promptovanje i dopuna konteksta su Rešenja: smanjuju halucinacije.
 - Naziv: **Kontekst modela** (alias context), da se ne meša sa `konteksti/`.
 - Uslovljavanje (#2) je opštiji pojam za nejezičke ulaze (referentna slika, oznaka klase). Čeka poglavlje.
+- **Model Context Protocol** (R2-P1) je protokol, a ne vrsta Ulaza: preko njega aplikacija doprema podatke i šablone u kontekst modela i poziva alate. Rod pojmova koji nisu vrsta krovnog pojma: `odluke.md`, 2026-11-14.
 
 Izlaz nema čvor jer su tri vrste AI tehnologije već podela po izlazu. "Ulaz" i "izlaz" u opštem smislu su pretpostavljeni.
 
@@ -160,6 +167,23 @@ Izlaz nema čvor jer su tri vrste AI tehnologije već podela po izlazu. "Ulaz" i
 | Funkcija cilja | #1 | Metrika uspeha |
 
 **Ukupno u PR-u "Osnova": 35 beleški.** Od toga je 22 postojećih (uz izmene) i 13 novih: AI tehnologija, Karakteristika, Ulaz, Slučaj korišćenja, Metrika uspeha, Problem, Rešenje, Generisanje sadržaja, Analiza sadržaja, Odlučivanje, Mogućnost, Nedostatak, Greška.
+
+**Sidra iz runde 2, prezentacija 1 (Agentski AI sistemi), 12 beleški:**
+
+| Sidro | Čvor |
+|---|---|
+| AI agent | AI tehnologija, horizontalni pojam kao Veliki jezički model |
+| Agentski tok rada | AI tehnologija, horizontalni pojam |
+| Višeagentski sistem | AI tehnologija, horizontalni pojam |
+| Model Context Protocol | Ulaz (rod: protokol) |
+| Agentska petlja | Karakteristika |
+| Beskonačna agentska petlja | Problem |
+| Istek vremena alata | Problem nastao iz Rešenja |
+| Prekomerno izlaganje resursa | Problem |
+| Distribuirano praćenje | Rešenje |
+| Veliki jezički model kao evaluator | Evaluacija |
+| Praćenje potrošnje tokena | Evaluacija |
+| Analiza pojedinačnih koraka | Evaluacija |
 
 
 ## 4. Status svih 103 pojma iz PR-ova
@@ -248,5 +272,22 @@ Svaki lanac koristi svih 10 krovnih pojmova. Vrste (11) se koriste bar jednom. B
 | Evaluacija | Pregled uzorka instrukcija prema dokumentaciji pre puštanja u upotrebu | Test na skupu sa retkim defektima, matrica konfuzije | Poređenje preporuka sa stvarnim otkazima iz evidencije |
 
 Ako neki korak traži pojam koji nije u osnovi, ili taj pojam fali, ili korak spada u poglavlje.
+
+### Lanac D (runda 2): dijagnostika kvara CNC-07
+
+| Pojam | D. Agentski AI sistem: dijagnostika kvara i nacrt servisnog naloga |
+|---|---|
+| AI tehnologija | Višeagentski sistem (koordinacioni agent i tri agenta) nad velikim jezičkim modelom. Kombinuje analizu (tumačenje očitavanja), generisanje (nacrt naloga) i izbor akcija (pozivi alata) |
+| Ulaz | Prompt (zadatak rukovodioca održavanja), Kontekst modela (očitavanja, dokumentacija, rezultati alata) dopremljen preko Model Context Protocol. Modalitet: vremenska serija vibracija i tekst |
+| Karakteristika | Agentska petlja. Mogućnost: bira korake prema rezultatima. Nedostatak: sklonost halucinaciji kada podatak nedostaje. Neizvesnost: broj ciklusa i trošak se ne znaju unapred |
+| Slučaj korišćenja | Dijagnostika kvara i priprema servisnog naloga (rukovodilac održavanja) |
+| Ograničenje | Čita samo potrebne podatke; nalog važi tek posle odobrenja; najviše 300.000 tokena po analizi |
+| Metrika uspeha | Tehnička ispravnost dijagnoze i procedure; broj tokena po analizi |
+| Problem, Greška | Beskonačna agentska petlja (87 istih poziva, 1,9 miliona tokena); Istek vremena alata, pa halucinacija o zalihama; Prekomerno izlaganje resursa (zarade u nalogu i tragu) |
+| Rizik | Verovatnoća da analiza nastavi bez podatka o zalihama puta posledica (do 1.000 EUR kazne za N-2417) |
+| Rešenje | Uslov zaustavljanja od 300.000 tokena (nov Problem: prerano zaustavljanje), rok za odgovor (nov Problem: istek vremena), filtriranje na serveru i najmanja ovlašćenja, distribuirano praćenje (nov Problem: podaci ostaju u tragu), čovek u petlji (rukovodilac odobrava nalog) |
+| Evaluacija | Veliki jezički model kao evaluator (43 od 50 ocena kao kod rukovodioca), praćenje potrošnje tokena (sa 90.000 na 40.000 po analizi), analiza pojedinačnih koraka (greška u koraku koordinacionog agenta) |
+
+Lanac D tri puta pokazuje pravilo da Rešenje može da uvede nov Problem.
 
 ---
