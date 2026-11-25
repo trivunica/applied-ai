@@ -1,5 +1,5 @@
 ---
-tip: pojam
+tip: karakteristika
 aliases: [structured output, strukturiran izlaz, JSON izlaz]
 izvor: "Anthropic. Structured outputs, Claude Platform Docs. https://platform.claude.com/docs/en/build-with-claude/structured-outputs"
 ---

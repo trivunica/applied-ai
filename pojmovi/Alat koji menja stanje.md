@@ -1,5 +1,5 @@
 ---
-tip: pojam
+tip: karakteristika
 aliases: [state-changing tool, alat sa sporednim efektom]
 izvor: "Fielding, R., Nottingham, M., Reschke, J. RFC 9110: HTTP Semantics, odeljak 9.2.1 Safe Methods. https://www.rfc-editor.org/rfc/rfc9110#section-9.2.1"
 ---

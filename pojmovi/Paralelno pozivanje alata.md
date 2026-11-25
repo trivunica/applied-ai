@@ -1,5 +1,5 @@
 ---
-tip: pojam
+tip: karakteristika
 aliases: [parallel tool calls, parallel tool use]
 izvor: "Anthropic. Parallel tool use, Claude Platform Docs. https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use"
 ---
