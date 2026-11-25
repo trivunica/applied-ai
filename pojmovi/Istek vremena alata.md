@@ -13,5 +13,5 @@ Agent za troškove u sistemu za dijagnostiku kvarova fabrike [[Orion Precizni De
 
 ## Napomene
 - Rok za odgovor je i sam [[Rešenje|rešenje]]: bez njega bi agent čekao odgovor koji možda nikada ne stiže. Istek vremena je problem koji to rešenje uvodi. U MCP-u rok postavlja klijent, a specifikacija preporučuje da ga ima svaki zahtev.
-- Šta sledi posle isteka zavisi od [[Agentska petlja|agentske petlje]], jer agent sledeću akciju bira na osnovu rezultata prethodne. Ako ponavlja isti poziv, nastaje [[Beskonačna agentska petlja|beskonačna agentska petlja]]. Ako nedostajući podatak zameni pretpostavkom, kao u primeru, nastaje [[Halucinacija|halucinacija]].
+- Šta sledi posle isteka zavisi od [[Agentska petlja|agentske petlje]], jer agent sledeću akciju bira na osnovu rezultata prethodne. Ako ponavlja isti poziv, nastaje [[Petlja bez napretka|petlja bez napretka]]. Ako nedostajući podatak zameni pretpostavkom, kao u primeru, nastaje [[Halucinacija|halucinacija]].
 - Posledicu smanjuje to da agent dobije jasnu poruku da je poziv istekao, da broj ponovnih pokušaja ograniči program, a ne model, i da nacrt naloga označi podatke koji nisu provereni, kako bi ih rukovodilac proverio ([[Ljudski nadzor|ljudski nadzor]]).

@@ -13,5 +13,5 @@ Koordinacioni agent sistema za dijagnostiku kvarova u fabrici [[Orion Precizni D
 
 ## Napomene
 - AI agent je tehnologija, a agentska petlja način na koji ona radi. Iz petlje proizlazi [[Mogućnost|mogućnost]] da agent prilagodi korake rezultatima, ali i to da se trajanje i trošak jedne analize ne znaju unapred (vidi [[Praćenje potrošnje tokena]]).
-- Ako agent ponavlja akcije bez napretka i nikada ne proceni da je cilj ostvaren, petlja traje dok je ne prekine uslov zaustavljanja, a bez njega se ne završava: to je [[Beskonačna agentska petlja|beskonačna agentska petlja]]. Petlja koju prekine uslov zaustavljanja obično se završava bez rezultata.
+- Ako agent ponavlja akcije koje ne donose nove rezultate i nikada ne proceni da je cilj ostvaren, petlja se ne završava sama, nego tek kada je prekine uslov zaustavljanja ili čovek: to je [[Petlja bez napretka|petlja bez napretka]]. Petlja koju prekine uslov zaustavljanja obično se završava bez rezultata.
 - Ponavljanje koje zadaje program, na primer najviše tri pokušaja istog koraka u [[Agentski tok rada|agentskom toku rada]], nije agentska petlja, jer u njemu model ne bira sledeću akciju.

@@ -108,7 +108,7 @@ Rizik se računa iz Greške, pa nije njena "sestra". Zato se ne dele pojmovi 50:
 | Verifikacija, Validacija, Testiranje (#2) | Vrste Evaluacije | U radu, provera izlaza je i Rešenje |
 | Objašnjivost modela (#3) | Mogućnost | Služi Ljudskom nadzoru |
 | Agentska petlja (R2-P1) | Karakteristika | Direktno ispod krovnog pojma: donosi i Mogućnost (prilagođavanje rezultatima) i Nedostatak (nepoznat trošak, petlja koja se ne završava) |
-| Beskonačna agentska petlja (R2-P1) | Problem | Stanje izvršavanja, nije izlaz. Proizlazi iz Agentske petlje |
+| Petlja bez napretka (R2-P1) | Problem | Stanje izvršavanja, nije izlaz. Proizlazi iz Agentske petlje |
 | Istek vremena alata (R2-P1) | Problem nastao iz Rešenja | Rok za odgovor ostavlja agenta bez podatka. Okidač je van AI tehnologije |
 | Prekomerno izlaganje resursa (R2-P1) | Problem | Izvor daje više podataka nego što treba, a agent sve unosi u kontekst modela. Okidač je van AI tehnologije |
 | Distribuirano praćenje (R2-P1) | Rešenje | Smanjuje posledicu, ne verovatnoću. Nov Problem: izloženi podaci ostaju u tragu |
@@ -177,7 +177,7 @@ Izlaz nema čvor jer su tri vrste AI tehnologije već podela po izlazu. "Ulaz" i
 | Višeagentski sistem | AI tehnologija, horizontalni pojam |
 | Model Context Protocol | Ulaz (rod: protokol) |
 | Agentska petlja | Karakteristika |
-| Beskonačna agentska petlja | Problem |
+| Petlja bez napretka | Problem |
 | Istek vremena alata | Problem nastao iz Rešenja |
 | Prekomerno izlaganje resursa | Problem |
 | Distribuirano praćenje | Rešenje |
@@ -283,7 +283,7 @@ Ako neki korak traži pojam koji nije u osnovi, ili taj pojam fali, ili korak sp
 | Slučaj korišćenja | Dijagnostika kvara i priprema servisnog naloga (rukovodilac održavanja) |
 | Ograničenje | Čita samo potrebne podatke; nalog važi tek posle odobrenja; najviše 300.000 tokena po analizi |
 | Metrika uspeha | Tehnička ispravnost dijagnoze i procedure; broj tokena po analizi |
-| Problem, Greška | Beskonačna agentska petlja (87 istih poziva, 1,9 miliona tokena); Istek vremena alata, pa halucinacija o zalihama; Prekomerno izlaganje resursa (zarade u nalogu i tragu) |
+| Problem, Greška | Petlja bez napretka (87 istih poziva, 1,9 miliona tokena); Istek vremena alata, pa halucinacija o zalihama; Prekomerno izlaganje resursa (zarade u nalogu i tragu) |
 | Rizik | Verovatnoća da analiza nastavi bez podatka o zalihama puta posledica (do 1.000 EUR kazne za N-2417) |
 | Rešenje | Uslov zaustavljanja od 300.000 tokena (nov Problem: prerano zaustavljanje), rok za odgovor (nov Problem: istek vremena), filtriranje na serveru i najmanja ovlašćenja, distribuirano praćenje (nov Problem: podaci ostaju u tragu), čovek u petlji (rukovodilac odobrava nalog) |
 | Evaluacija | Veliki jezički model kao evaluator (43 od 50 ocena kao kod rukovodioca), praćenje potrošnje tokena (sa 90.000 na 40.000 po analizi), analiza pojedinačnih koraka (greška u koraku koordinacionog agenta) |

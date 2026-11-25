@@ -14,4 +14,4 @@ Platforma za praćenje u fabrici [[Orion Precizni Delovi]] za svaku analizu sabi
 ## Napomene
 - Tokeni se broje posebno za ulaz i za izlaz, jer se obično različito naplaćuju. Ulaz svakog poziva sadrži ceo dotadašnji kontekst modela, pa u [[Agentska petlja|agentskoj petlji]] ukupan broj ulaznih tokena raste brže od broja ciklusa.
 - Broj tokena se najčešće čita iz [[Distribuirano praćenje|traga]], gde je zapisan uz svaki korak koji je poziv modela, pa se može sabrati po agentu, analizi ili danu.
-- Kada se potrošnja prati tokom izvršavanja, a ne tek posle, praćenje postaje i [[Rešenje|rešenje]]: sistem prekida analizu kada ona pređe 300.000 tokena (vidi [[Beskonačna agentska petlja]]).
+- Kada se potrošnja prati tokom izvršavanja, a ne tek posle, praćenje postaje i [[Rešenje|rešenje]]: sistem prekida analizu kada ona pređe 300.000 tokena (vidi [[Petlja bez napretka]]).

@@ -38,6 +38,8 @@ Pojmovi koje publika zna bez definisanja. Nemaju belešku i ne linkuju se. Ne ot
 - 2026-11-14: **Distribuirano** u nazivu Distribuirano praćenje znači "kroz više sistema". Nema veze sa raspodelom verovatnoće, pa ne krši konvenciju "raspodela, ne distribucija".
 - 2026-11-14: **Pojmovi evaluacije iz teme Agentski AI sistemi** (Veliki jezički model kao evaluator, Praćenje potrošnje tokena, Analiza pojedinačnih koraka) imaju rod Evaluacija. Ulogu Rešenja, kada se primenjuju tokom rada, navode u napomenama, kao i provera izlaza kod Verifikacije i Validacije.
 - 2026-11-15: **Istek vremena** (timeout), ne "vremensko ograničenje", jer je Ograničenje u bazi uslov slučaja korišćenja. Sam rok se piše opisno: zadati rok, rok za odgovor.
+- 2026-11-25: **AI agent** se koristi u užem smislu: akcije bira veliki jezički model. Po ISO/IEC 22989 (3.1.1) agent je svaki sistem koji opaža okruženje i deluje radi cilja, pa i regulator ili program za šah, a takvi sistemi ovde nisu AI agenti.
+- 2026-11-25: **Petlja bez napretka**, ne "beskonačna agentska petlja". Problem određuje izostanak napretka, a ne izostanak uslova zaustavljanja, a takva petlja se u praksi prekine spolja: uslovom zaustavljanja, ručno ili kada se potroše resursi. Stari naziv i *infinite loop* ostaju aliasi.
 
 ## Otvorena pitanja
 - Srpski termin za "činjenična ispravnost" (factuality) nije ustaljen.
