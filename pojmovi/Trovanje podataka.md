@@ -6,7 +6,7 @@ izvor: "NIST AI 100-2e2025, Adversarial Machine Learning: A Taxonomy and Termino
 # Trovanje podataka (data poisoning)
 
 ## Definicija
-Trovanje podataka je [[Problem|problem]] u kome napadač namerno izmeni ili ubaci podatke za treniranje tako da naučeni model pravi greške koje napadač želi, najčešće samo u određenim situacijama, dok u ostalim radi uobičajeno.
+Trovanje podataka je [[Problem|problem]] u kome model nauči pogrešno ponašanje iz izmenjenih ili ubačenih podataka za treniranje, jer AI tehnologija ne razlikuje ispravne primere od izmenjenih, nego uči iz svih koje dobije. Podatke najčešće namerno menja napadač, tako da model greši samo u određenim situacijama; napad je okolnost u kojoj se problem javlja, a uzrok je taj [[Nedostatak|nedostatak]].
 
 ## Primer
 Fabrika [[Orion Precizni Delovi]] angažuje spoljnu firmu da obeleži snimke sa linije za vizuelnu kontrolu. Nezadovoljni radnik te firme obeleži kao ispravne sve snimke kućišta sa ogrebotinom na unutrašnjem prstenu. Model naučen na tim podacima prolazi proveru na ostalim vrstama defekata, ali taj jedan defekt ne prijavljuje.
